@@ -6,11 +6,11 @@ void initDeck (char deck[8][8])
 char letters[]={'l','k', 's', 'f', 'q', 'n', 'h', 'p'};
 for (int letter = 0; letter<8; letter++)
 {
-deck [0][letter]=letters[letter]
-deck [7][letter]=letters[letter]-32
+deck [0][letter]=letters[letter];
+deck [7][letter]=letters[letter]-32;
 deck [1][letter]= 'p';
 deck [6][letter]= 'p'-32;
-for (int i=2; i,6; i++)
+for (int i=2; i<6; i++)
 {
 deck[i][letter]= ' ';
 }
